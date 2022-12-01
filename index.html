@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-api">
+            <div class="heading"> Weather Api </div>
+            <input id="locationinput" type="text" placeholder="Location">
+            <input id="accesstokan" type="text" placeholder="Access Token (Enter any)">
+            <div class="button">
+                <button onclick="submit()">Submit</button>
+            </div>
+        </div>
+        <div class="weather-data">
+            <div class="heading2">Weather Data</div>
+            <div class="databox">
+                <div class="data">
+                    <div class="Location"> Location:
+                        <span id="emptyLocation"></span>
+                    </div>
+                    <div class="Lat">Lat:
+                        <span id="emptylat"></span>
+                    </div>
+                    <div class="Timezone">Timezone:
+                        <span id="emptyTimezone"></span>
+                    </div>
+                    <div class="WindSpeed">Wind Speed:
+                        <span id="emptyWindSpeed"></span>
+                    </div>
+
+                    <div class="Pressure">Pressure:
+                        <span id="emptyPressure"></span>
+                    </div>
+                    <div class="Humidity">Humidity:
+                        <span id="emptyHumidity"></span>
+                    </div>
+                    <div class="WindDirection">Wind Direction:
+                        <span id="emptyWindDirection"></span>
+                    </div>
+                    <div class="UVIndex">UV Index:
+                        <span id="emptyUVIndex"></span>
+                    </div>
+                    <div class="FeelsLike">Feels Like:
+                        <span id="emptyFeelsLike"></span>
+                    </div>
+                    <div class="Long">Long:
+                        <span id="emptyLong"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

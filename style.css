@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1728px;
+    height: 2334px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px solid rgb(18, 17, 17);
+}
+
+.weather-api {
+    position: absolute;
+    width: 1728px;
+    height: 837px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading {
+    position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 518px;
+    top: 101px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #FFFFFF;
+
+    /* border: 1px solid red; */
+}
+
+#locationinput {
+    position: absolute;
+    z-index: 999;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 302px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    padding-left: 8px;
+ 
+}
+
+
+#accesstokan {
+    position: absolute;
+    z-index: 999;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 409px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    padding-left: 8px;
+
+}
+
+.button {
+    z-index: 999;
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 146px;
+    top: 549px;
+    background: #FFFFFF;
+}
+
+.button button {
+    width: 260.75px;
+    height: 58px;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+button:hover{
+    background: rgb(89, 202, 233);
+}
+
+.weather-data {
+    position: absolute;
+    width: 1728px;
+    height: 2334px;
+    /* border: 5px solid blue; */
+}
+
+.heading2 {
+    position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 62px;
+    top: 941px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+
+}
+
+.databox {
+    position: absolute;
+    width: 1585px;
+    height: 1120px;
+    left: 62px;
+    top: 1136px;
+    border: 2px solid #000000;
+
+}
+
+
+.data {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 110px;
+    color: #000000;
+    border: none;
+    margin-top: 56px;
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.Long {
+    position: absolute;
+    top: 177px;
+    left: 820px;
+
+
+    width: 669.46px;
+    height: 74px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+    border: none;
+    /* border: 1px solid red; */
+}
